@@ -221,6 +221,14 @@ input[type=range]::-ms-fill-upper {
 }
 
 
+/** Medium Devices, Tablets (800px)**/
+@media screen and (min-width: 800px) {
+	[data-component="text-box"] {
+		padding: 0 25px;
+	}
+}
+
+
 /** Medium Devices, Tablets (992px)**/
 @media screen and (min-width: 62em) {
 	[data-component="choice-container"] button {
